@@ -1,2 +1,2 @@
-# Pilares_pub
-Proyectos Escuela de Código
+# PILARES
+ Proyectos de Escuela de Código

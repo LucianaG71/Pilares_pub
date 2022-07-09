@@ -1,0 +1,147 @@
+
+header{
+     width: 78%;
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     padding-left: 5px;
+     padding-right: 5px;
+     margin: auto;
+    }
+    
+.logo{
+    padding-top: 12px;
+    padding-bottom: 0px;
+    width: 60px;
+    height: 60px;
+    }
+
+.logo img{
+    width: 100%;
+    }
+
+.menu{
+	display: inline;
+    word-spacing: 10px;
+    flex: 1;
+    padding-top: 3%;
+    }
+
+.link{
+	font-family: Arial, Tahoma, sans-serif;
+	color: black;
+    font-size: 0.9em;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: none;
+    }
+nav{
+    display: inline;
+    word-spacing: 10pt;
+    }
+button{
+    display: inline-block;
+    border-radius: 12px;
+    padding: 5px 9px;
+    font-size: 10px;
+    cursor: pointer;
+    }
+
+.classic1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    margin-top: 28%;
+    margin-right: 5px;
+    }
+
+.classic2{
+    background-color: black; 
+    color: white; 
+    border: 2px solid black;
+    margin-right: 0;
+    }
+    
+section.uno{
+    width: 80%;
+    margin: auto;
+    background-color: #016142;
+    padding-bottom: 2%;
+    background-size: cover;
+    text-align: center;
+    }
+#aprende{
+    font-family: Arial, Tahoma, sans-serif;
+	color: white;
+    text-decoration-color: white;
+    }
+
+section.dos{
+    display:grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+    background-color: #D40032;
+    }
+
+.grid-dos{
+    column-gap: 1%;
+    text-align: center;
+    margin-right: 30%;
+    padding-top: 3%;
+    padding-bottom: 1%
+    }
+
+section.tres{
+    display:grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+    background-color: #D40032;
+    }
+    
+.grid-tres{
+    text-align: center;
+    padding-top: 10%;
+    }
+
+#pedido{
+    background-color: #D40032;
+    color: white; 
+    border: 2px solid white;  
+    }
+
+h1{
+    font-family: Arial, Tahoma, sans-serif;
+	color: white;
+    letter-spacing: 4px;
+    line-height: 1.6em;
+    font-size: 2.1em;
+    font-weight: 200;
+    padding-top: 3%
+    }
+p{
+    font-family: Arial, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    }
+.social{
+    list-style-type: none;
+    display: inline;
+    }
+
+p.copyright{
+    font-family: Arial, Tahoma, sans-serif;
+    color: black;
+    margin-left: 3%;
+    text-align: left;
+    font-size: 0.9em;
+    }
+
+footer{
+    width: 78%;
+    margin: auto;
+    border-top: 2px solid #d6d6d6;
+    }
